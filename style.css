@@ -1,0 +1,89 @@
+body{
+  background-color: #e8eaec;
+}
+
+#container{
+  width: 80%;
+  margin: auto;
+}
+
+.card-content{
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  background-color: white;
+  margin: 5px;
+  width: 30%;
+  border-radius: 15px;
+}
+
+.card-content1{
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  background-color: white;
+  margin: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card-content2{
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.row{
+  display: flex;
+}
+
+#profile a{
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+  font-size: 16px;
+}
+
+#profile a:hover{
+  background: #c5ceca;
+  color: white;
+}
+
+.avatar{
+  display: block;
+  width: 19%;
+  border-radius: 50%;
+}
+
+.inline-list{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.inline-list li{
+  display: inline;
+  padding: 10px ;
+  font-size: 14px;
+}
+
+h1{
+  color: rgb(133, 127, 127);
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  font-variant: small-caps;
+  padding: 5px;
+}
+
+p{
+  font-size: 19px;
+  margin: 10px;
+}
+
+h4,h2{
+  color: rgb(133, 127, 127);
+}
